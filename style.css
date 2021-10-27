@@ -904,38 +904,6 @@ h3 {
     }
 }
 
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
- 
-    
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-    }
-
-    .social {
-        max-width: 400px;
-        margin: auto auto auto auto;
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1074,6 +1042,61 @@ h3 {
         height: 320px;
     }
 
+        .bloc-mob-center-text {
+            text-align: center;
+        }
+    
+        .portfolio-thumb {
+            margin-bottom: 0px;
+            max-width: 60%;
+        }
+    
+        .mg-md {
+            margin-bottom: 0px;
+        }
+    
+        .spacebox {
+            padding-top: 50px;
+        }
+    
+        a[data-lightbox] {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .b-parallax {
+        background-attachment: scroll;
+    }
+    .page-container,
+    #hero-bloc {
+        overflow-x: hidden;
+        position: relative;
+    }
+ 
+    
+    .bloc-group,
+    .bloc-group .bloc {
+        display: block;
+        width: 100%;
+    }
+    .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-fill-screen .fill-bloc-bottom-edge {
+        padding: 0 20px;
+    }
+
+    .social {
+        max-width: 400px;
+        margin: auto auto auto auto;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1083,29 +1106,21 @@ h3 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+@media (min-width: 1919px) {
+    .bg-center,
+    .bg-l-edge,
+    .bg-r-edge,
+    .bg-t-edge,
+    .bg-b-edge,
+    .bg-tl-edge,
+    .bg-bl-edge,
+    .bg-tr-edge,
+    .bg-br-edge,
+    .bg-repeat {
+        -webkit-background-size: 100%!important;
+        -moz-background-size: 100%!important;
+        -o-background-size: 100%!important;
+        background-size: 100%!important;
     }
-
-    .portfolio-thumb {
-        margin-bottom: 0px;
-        max-width: 60%;
-    }
-
-    .mg-md {
-        margin-bottom: 0px;
-    }
-
-    .spacebox {
-        padding-top: 50px;
-    }
-
-    a[data-lightbox] {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
 }
+
